@@ -6,10 +6,16 @@ export const Requests = () => {
     let html = `
         <ul>
             ${
-                requests.map()
+                requests.map(convertRequestToListElement)
             }
         </ul>
     `
 
     return html
+}
+
+const convertRequestToListElement = (request) => {
+  return `<li>
+ ${request.description}
+</li>`
 }
