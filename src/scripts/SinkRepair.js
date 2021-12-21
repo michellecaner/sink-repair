@@ -13,4 +13,3 @@ export const SinkRepair = () => {
             ${Requests()}
         </section>
     `
-}
