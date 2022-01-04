@@ -4,12 +4,12 @@ import { Requests } from "./Requests.js"
 
 export const SinkRepair = () => {
     return `
-        <h1>Maude and Merle's Sink Repair</h1>
+        <h1 class="title">Maude and Merle's Sink Repair</h1>
         <section class="serviceForm">
             ${ServiceForm()}
         </section>
-        <section class="serviceRequests">
-            <h2>Service Requests</h2>
+        <section>
+            <h2 class="serviceRequests">Service Requests</h2>
             ${Requests()}
         </section>
             `
