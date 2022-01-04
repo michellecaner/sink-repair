@@ -47,7 +47,7 @@ export const ServiceForm = () => {
     return html
 }
 
-export const ServiceForm = () => {
+export const serviceForm = () => {
     let html = `
         <div class="field">
             <label class="label" for="serviceDescription">Description</label>

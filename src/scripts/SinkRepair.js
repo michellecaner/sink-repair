@@ -12,4 +12,6 @@ export const SinkRepair = () => {
             <h2>Service Requests</h2>
             ${Requests()}
         </section>
-    `
+            `
+}
+
