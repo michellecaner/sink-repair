@@ -12,6 +12,10 @@
   font-size: 18px;
 }
 
+.input {
+  background-color: white;
+}
+
 .serviceRequests {
   margin-top: 2rem;
   color: hotpink;
